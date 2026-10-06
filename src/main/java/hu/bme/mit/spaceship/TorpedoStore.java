@@ -27,7 +27,7 @@ public class TorpedoStore {
       }
     }
   }
-
+  //fire függvény
   private Random generator = new Random();
   public boolean fire(int numberOfTorpedos){
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
